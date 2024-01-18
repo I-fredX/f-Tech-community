@@ -12,6 +12,7 @@ body{
 .login-left{
     background-image: url(images/login-image.png);
     background-size: cover;
+    /* background-position: center; */
     background-repeat: no-repeat;
     position: relative;
     height: 100%;
@@ -24,11 +25,20 @@ body{
 
 .login-left-content{
     /* bottom:102px */
+    gap: 32px;    
     margin-bottom: 102px;   
+    flex-basis: 70%;
 }
 
 .login-left-content > h1{
     color: #FFF;
     font-family: Inter;
     font-size: 56.694px;
+}
+
+.login-left-content > button{
+    padding: 12px 22px;
+    border-radius: 4px;
+    background-color: #FFF;
+    border: 0px;
 }
