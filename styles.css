@@ -12,6 +12,7 @@ body{
     background-image: url(images/login-image.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -21,5 +22,7 @@ body{
 }
 
 .login-left-content{
-margin-bottom: 102px;
+    position :absolute;
+    /* bottom:102px */
+    margin-bottom: 102px;
 }
