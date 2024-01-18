@@ -2,7 +2,14 @@ body{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    height: 100vh;
+    font-family: Inter;
 }
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+
 
 .login-page{
     height: 100vh;
@@ -30,13 +37,59 @@ body{
 
 .login-left-content > h1{
     color: #FFF;
+    margin-bottom: 32px;
     font-family: Inter;
     font-size: 56.694px;
 }
 
-.login-left-content > button{
+.login-page-button{
     padding: 12px 22px;
     border-radius: 4px;
-    background-color: #FFF;
     border: 0px;
 }
+
+.frame-8{
+    width: 324px;
+}
+
+.login-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    gap: 64px;
+}
+
+.form{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.email-field, .password-field{
+    gap: 12px;
+    border-radius: 4px;
+    
+}
+
+.sign-in > input{
+    padding: 10px 12px;
+    
+}
+
+.sign-in > button{
+    background: #1E1E1E;
+    color: #EEE;
+    border: 0px;
+    
+}
+
