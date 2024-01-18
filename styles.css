@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .login-page{
@@ -22,7 +23,7 @@ body{
 }
 
 .login-left-content{
-    position :absolute;
+
     /* bottom:102px */
     margin-bottom: 102px;
 }
