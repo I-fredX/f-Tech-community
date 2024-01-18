@@ -23,7 +23,12 @@ body{
 }
 
 .login-left-content{
-
     /* bottom:102px */
-    margin-bottom: 102px;
+    margin-bottom: 102px;   
+}
+
+.login-left-content > h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 56.694px;
 }
