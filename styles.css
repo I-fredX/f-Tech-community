@@ -93,16 +93,15 @@ h1,h2,h3,h4,h5,h6{
     color: #EEE;    
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
 
     .login-page{
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 852px;
-        width:100vh;
-        /* font-size: ; */
-        
+        width:100vw;
+        /* font-size: ; */        
     }
 
     .login-page > *{
