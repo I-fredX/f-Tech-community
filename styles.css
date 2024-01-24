@@ -110,16 +110,13 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .login-left-content{
-        margin-bottom: 4.125em;
-        
+        margin-bottom: 4.125em;    
         
     }
     
 
     .login-left-content > h1{
         font-size: 2em;
-
-
     }
 
 
